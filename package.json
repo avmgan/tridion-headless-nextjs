@@ -1,0 +1,33 @@
+{
+  "name": "tridion-headless-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--inspect && next dev",
+    "build": "next build",
+    "start": "next start",
+    "start:debug": "next start --inspect --watch",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "@types/bootstrap-select": "^1.13.7",
+    "bootstrap": "^5.3.5",
+    "bootstrap-select": "^1.13.18",
+    "jquery": "^3.7.1",
+    "next": "^15.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

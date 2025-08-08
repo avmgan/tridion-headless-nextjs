@@ -1,0 +1,1 @@
+export type ResourceDictionary = Record<string, string>;
